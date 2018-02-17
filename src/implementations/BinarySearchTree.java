@@ -86,6 +86,7 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
 	}
 	*/
 	
+	//Add method recursive version
 	public boolean add(T element)
 	{
 		if(root == null)
@@ -151,6 +152,7 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
 		size = 0;
 	}
 	
+	//Contains recursive method
 	public boolean contains(T element)
 	{
 		if(root == null)
