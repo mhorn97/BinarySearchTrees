@@ -1,3 +1,12 @@
+/*
+ * Tony Thompson & Micheal Horn
+ * Added 
+ * 	*recursive add()
+ * 	*iterative contains()
+ * 	*iterative findMin()
+ * 	*iterative findMax()
+ */
+
 package implementations;
 
 // Binary Search Tree that has an invariant that no duplicate data is allowed
