@@ -22,6 +22,9 @@ public class BSTTest {
 		System.out.println("Contains: 200" + " --> " + bst.contains(200));
 		bst.delete(num);
 		System.out.println("Contains: " + num + " --> " + bst.contains(num));
+		System.out.println();
+		bst.findMax();
+		bst.findMin();
 	}
 
 }
